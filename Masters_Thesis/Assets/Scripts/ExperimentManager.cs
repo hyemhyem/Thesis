@@ -22,6 +22,7 @@ public class ExperimentManager : MonoBehaviour
     [Header("Player")]
     public Camera head;
     public GameObject augmentedEyes;
+    public Transform spine;
     
     [Header("Vive SR WORKS")]
     public LimboCanvas limboCanvas;
@@ -44,14 +45,14 @@ public class ExperimentManager : MonoBehaviour
     public KeyCode controlKey;
     public GameObject shinySphere;
 
-    private string file;
-    private StreamWriter writer;
+
     private bool isTriggerPressed = false;
     private Transform estimatedPoint = null;
 
-
     IEnumerator Start()
     {
+        string file, postureFile;
+        StreamWriter writer, postureWriter;
 
         if(subjectName.Length == 0)
         {
@@ -69,9 +70,26 @@ public class ExperimentManager : MonoBehaviour
         try
         {
             file = getFilePath(subDirectory);
-            writer = new StreamWriter(file);
+            if (!File.Exists(file))
+                writer = new StreamWriter(file);
+            else
+            {
+                Debug.LogError("File Already Exist : " + file);
+                yield break;
+            }
 
-            writer.WriteLine("Time,Target Name,Origin Pos X, Origin Pos Y, Origin Pos Z,Estimated Pos X,Estimated Pos Y, Estimated Pos Z, Real Pos X, Real Pos Y, Real Pos Z, Estimated Distance, Real Distance, Accuracy, Signed Error");
+            postureFile = getFilePath(subDirectory, "_POSETURE");
+            if(!File.Exists(postureFile))
+                postureWriter = new StreamWriter(postureFile);
+            else
+            {
+                Debug.LogError("File Already Exist : " + file);
+                yield break;
+            }
+
+            writer.WriteLine("Time,Target Name,Origin Pos X,Origin Pos Y,Origin Pos Z,Estimated Pos X,Estimated Pos Y,Estimated Pos Z,Real Pos X,Real Pos Y,Real Pos Z,Estimated Distance,Real Distance,Accuracy,Signed Error");
+            postureWriter.WriteLine("Time,Target Name,Head Pos X,Head Pos Y,Head Pos Z,Spine Pos X,Spine Pos Y,Spine Pos Z,Distance XZ,Slope");
+        
         }
         catch (IOException e)
         {
@@ -92,7 +110,6 @@ public class ExperimentManager : MonoBehaviour
         ShuffleArray(target);
         
         System.Text.StringBuilder str = new System.Text.StringBuilder();
-
 
         Debug.Log("테스트 준비 완료되면 엔터 눌러 실행");
 
@@ -132,18 +149,32 @@ public class ExperimentManager : MonoBehaviour
             signed
             );
 
-
-            writer.WriteLine(str);
-
+            writer.WriteLine(str.ToString());
             str.Clear();
 
             Debug.Log(target[i].name + " accuracy:" + accuracy.ToString("F3") + " signed error :" + signed.ToString("F3"));
 
+            Vector3 vSpine = head.transform.position - spine.position;
+            float distXZ = Vector3.Magnitude(new Vector3(vSpine.x, 0, vSpine.z));
+            float slope = Vector3.Magnitude(vSpine) / distXZ ;
+
+            str.AppendFormat("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9}",
+            Time.time,
+            target[i].gameObject.name,
+            head.transform.position.x, head.transform.position.y, head.transform.position.z,
+            spine.position.x, spine.position.y, spine.position.z,
+            distXZ,
+            slope
+            );
+
+            postureWriter.WriteLine(str.ToString());
+            str.Clear();
 
             isTriggerPressed = false;
             target[i].gameObject.SetActive(false);
         }
 
+        postureWriter.Close();
         writer.Close();
 
     }
@@ -164,10 +195,8 @@ public class ExperimentManager : MonoBehaviour
             }
             else
             {
-                Debug.LogError("Directory already exist" + folder);
-                return false;
+                Debug.Log("Directory: " + folder);
             }
-
 
         }
         catch (IOException e)
@@ -211,6 +240,26 @@ public class ExperimentManager : MonoBehaviour
             fileName += "_VSPACE";
 
         fileName += ".csv";
+
+        return Path.Combine(path, fileName);
+    }
+
+    string getFilePath(string path, string option)
+    {
+
+        string fileName = "";
+
+        if (!isTransition)
+            fileName += "NT";
+        else
+            fileName += "LB";
+
+        if (!isVirtualSpace)
+            fileName += "_ROOM";
+        else
+            fileName += "_VSPACE";
+
+        fileName += (option+".csv");
 
         return Path.Combine(path, fileName);
     }
