@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.masters_thesis.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\hyemi\\Documents\\Unity Projects\\Github\\Thesis\\Masters_Thesis\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\Arts & Tech\\Desktop\\HMLEE_Masters Thesis\\Thesis\\Masters_Thesis\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "Masters_Thesis [Testing]"
