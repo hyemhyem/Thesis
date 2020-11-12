@@ -15,13 +15,13 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 43
-    width: 1920
-    height: 997
+    y: 42.666668
+    width: 2560
+    height: 1357.3334
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 10}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 642}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -40,14 +40,14 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 305
-    width: 1156
-    height: 330
+    y: 421
+    width: 1541
+    height: 455
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 123}
+  m_ActualView: {fileID: 109}
   m_Panes:
-  - {fileID: 123}
+  - {fileID: 109}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &3
@@ -66,14 +66,14 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 631
-    width: 486
-    height: 316
+    y: 872
+    width: 648
+    height: 436
   m_MinSize: {x: 54, y: 60}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 116}
+  m_ActualView: {fileID: 102}
   m_Panes:
-  - {fileID: 116}
+  - {fileID: 102}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -93,14 +93,14 @@ MonoBehaviour:
   - {fileID: 3}
   m_Position:
     serializedVersion: 2
-    x: 1156
+    x: 1541
     y: 0
-    width: 486
-    height: 947
-  m_MinSize: {x: 202, y: 281}
-  m_MaxSize: {x: 4002, y: 8042}
+    width: 648
+    height: 1308
+  m_MinSize: {x: 200, y: 260}
+  m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 82
+  controlID: 137
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -116,15 +116,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1642
+    x: 2189
     y: 0
-    width: 278
-    height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 119}
+    width: 371
+    height: 1308
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 105}
   m_Panes:
-  - {fileID: 119}
+  - {fileID: 105}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &6
@@ -144,14 +144,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 486
-    height: 631
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 120}
+    width: 648
+    height: 872
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 106}
   m_Panes:
-  - {fileID: 120}
-  - {fileID: 115}
+  - {fileID: 106}
+  - {fileID: 101}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &7
@@ -164,23 +164,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 635
-    width: 1156
-    height: 312
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 122}
+    y: 876
+    width: 1541
+    height: 432
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 104}
   m_Panes:
-  - {fileID: 122}
-  - {fileID: 118}
-  m_Selected: 0
-  m_LastSelected: 1
+  - {fileID: 108}
+  - {fileID: 104}
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,12 +224,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1920
-    height: 947
-  m_MinSize: {x: 679, y: 542}
-  m_MaxSize: {x: 12004, y: 12042}
+    width: 2560
+    height: 1308
+  m_MinSize: {x: 706, y: 592}
+  m_MaxSize: {x: 18003, y: 18042}
   vertical: 0
-  controlID: 81
+  controlID: 136
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,9 +250,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 997
-  m_MinSize: {x: 875, y: 300}
+    width: 2560
+    height: 1358
+  m_MinSize: {x: 875, y: 642}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &11
 MonoBehaviour:
@@ -271,7 +271,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 2560
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -292,8 +292,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 977
-    width: 1920
+    y: 1338
+    width: 2560
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -317,12 +317,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1156
-    height: 947
-  m_MinSize: {x: 201, y: 542}
-  m_MaxSize: {x: 4001, y: 12042}
+    width: 1541
+    height: 1308
+  m_MinSize: {x: 231, y: 592}
+  m_MaxSize: {x: 10001, y: 18042}
   vertical: 1
-  controlID: 133
+  controlID: 15
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -340,14 +340,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1156
-    height: 305
+    width: 1541
+    height: 421
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 121}
+  m_ActualView: {fileID: 107}
   m_Panes:
-  - {fileID: 121}
-  - {fileID: 117}
+  - {fileID: 107}
+  - {fileID: 103}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &15
@@ -561,11 +561,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_Finish
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -586,11 +586,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_LayerSetting
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -611,11 +611,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_VRSetting
+    m_Text: Vive.Plugin.SR.Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -636,11 +636,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_Finish
+    m_Text: Vive.Plugin.SR.Page_LayerSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -661,11 +661,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_LayerSetting
+    m_Text: Vive.Plugin.SR.Page_VRSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -686,11 +686,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_VRSetting
+    m_Text: Vive.Plugin.SR.Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -711,11 +711,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
+    m_Text: Vive.Plugin.SR.Page_LayerSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -736,11 +736,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
+    m_Text: Vive.Plugin.SR.Page_VRSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -761,11 +761,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_Finish
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -786,11 +786,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_LayerSetting
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -811,11 +811,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_VRSetting
+    m_Text: Vive.Plugin.SR.Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -836,11 +836,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
+    m_Text: Vive.Plugin.SR.Page_LayerSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -861,11 +861,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
+    m_Text: Vive.Plugin.SR.Page_VRSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -886,11 +886,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_Finish
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -911,11 +911,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_LayerSetting
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -936,11 +936,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_VRSetting
+    m_Text: Vive.Plugin.SR.Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -961,11 +961,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_Finish
+    m_Text: Vive.Plugin.SR.Page_LayerSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -986,11 +986,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_LayerSetting
+    m_Text: Vive.Plugin.SR.Page_VRSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1011,11 +1011,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_VRSetting
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1036,11 +1036,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1061,11 +1061,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
+    m_Text: Vive.Plugin.SR.Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1086,11 +1086,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_Finish
+    m_Text: Vive.Plugin.SR.Page_LayerSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1111,11 +1111,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_LayerSetting
+    m_Text: Vive.Plugin.SR.Page_VRSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1136,11 +1136,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_VRSetting
+    m_Text: Vive.Plugin.SR.Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1161,11 +1161,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_Finish
+    m_Text: Vive.Plugin.SR.Page_LayerSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1186,11 +1186,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_LayerSetting
+    m_Text: Vive.Plugin.SR.Page_VRSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1211,11 +1211,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_VRSetting
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1236,11 +1236,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1261,11 +1261,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
+    m_Text: Vive.Plugin.SR.Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1286,11 +1286,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
+    m_Text: Vive.Plugin.SR.Page_LayerSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1311,11 +1311,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
+    m_Text: Vive.Plugin.SR.Page_VRSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1336,11 +1336,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
+    m_Text: Vive.Plugin.SR.Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1361,11 +1361,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
+    m_Text: Vive.Plugin.SR.Page_LayerSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1386,11 +1386,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
+    m_Text: Vive.Plugin.SR.Page_VRSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1411,11 +1411,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1436,11 +1436,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_Finish
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1461,11 +1461,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_LayerSetting
+    m_Text: Vive.Plugin.SR.Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1486,11 +1486,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_VRSetting
+    m_Text: Vive.Plugin.SR.Page_LayerSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1511,56 +1511,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_Finish
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &62
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_LayerSetting
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &63
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
@@ -1575,7 +1525,7 @@ MonoBehaviour:
     width: 320
     height: 550
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &64
+--- !u!114 &62
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1600,7 +1550,7 @@ MonoBehaviour:
     width: 320
     height: 550
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &65
+--- !u!114 &63
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1625,7 +1575,7 @@ MonoBehaviour:
     width: 320
     height: 550
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &66
+--- !u!114 &64
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1650,7 +1600,7 @@ MonoBehaviour:
     width: 320
     height: 550
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &67
+--- !u!114 &65
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1675,7 +1625,7 @@ MonoBehaviour:
     width: 320
     height: 550
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &68
+--- !u!114 &66
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1691,6 +1641,56 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Vive.Plugin.SR.Page_VRSetting
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 320
+    height: 550
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &67
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 320
+    height: 550
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &68
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1786,56 +1786,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &73
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &74
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
@@ -1850,7 +1800,7 @@ MonoBehaviour:
     width: 320
     height: 550
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &75
+--- !u!114 &73
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1875,7 +1825,7 @@ MonoBehaviour:
     width: 320
     height: 550
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &76
+--- !u!114 &74
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1891,6 +1841,56 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Vive.Plugin.SR.Page_VRSetting
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 320
+    height: 550
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &75
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 320
+    height: 550
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &76
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -1986,56 +1986,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &81
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &82
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
@@ -2050,7 +2000,7 @@ MonoBehaviour:
     width: 320
     height: 550
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &83
+--- !u!114 &81
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2075,7 +2025,7 @@ MonoBehaviour:
     width: 320
     height: 550
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &84
+--- !u!114 &82
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2091,6 +2041,56 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Vive.Plugin.SR.Page_VRSetting
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 320
+    height: 550
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &83
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 320
+    height: 550
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &84
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -2186,11 +2186,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
+    m_Text: Vive.Plugin.SR.Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -2211,11 +2211,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
+    m_Text: Vive.Plugin.SR.Page_LayerSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -2236,11 +2236,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_Finish
+    m_Text: Vive.Plugin.SR.Page_VRSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -2261,11 +2261,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_LayerSetting
+    m_Text: Vive.Plugin.SR.Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -2286,11 +2286,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_VRSetting
+    m_Text: Vive.Plugin.SR.Page_LayerSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -2311,11 +2311,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
+    m_Text: Vive.Plugin.SR.Page_VRSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -2336,11 +2336,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -2361,11 +2361,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_Finish
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -2386,11 +2386,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_LayerSetting
+    m_Text: Vive.Plugin.SR.Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -2411,11 +2411,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_VRSetting
+    m_Text: Vive.Plugin.SR.Page_LayerSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -2436,11 +2436,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_Finish
+    m_Text: Vive.Plugin.SR.Page_VRSetting
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -2461,11 +2461,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_LayerSetting
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -2486,11 +2486,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
+  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_VRSetting
+    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -2509,356 +2509,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &102
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &103
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &104
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &105
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &106
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &107
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_Finish
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &108
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_LayerSetting
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &109
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_VRSetting
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &110
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_Finish
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_Finish
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &111
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_LayerSetting
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_LayerSetting
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &112
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:Page_VRSetting
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.Page_VRSetting
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &113
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_Finish
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_Finish
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &114
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp:Vive.Plugin.SR:ViveSR_Experience_Page_VRInput
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Vive.Plugin.SR.ViveSR_Experience_Page_VRInput
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &115
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -2866,7 +2516,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Lighting
-    m_Image: {fileID: 8394858894532624064, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 4345591932164060902, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -2876,7 +2526,7 @@ MonoBehaviour:
     width: 480
     height: 610
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &116
+--- !u!114 &102
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2896,12 +2546,12 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -30844
-    y: -31339
-    width: 484
-    height: 295
+    x: 1541.3334
+    y: 944.6667
+    width: 646
+    height: 415
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &117
+--- !u!114 &103
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2917,7 +2567,7 @@ MonoBehaviour:
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
     m_Text: Asset Store
-    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -4391848389275900105, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -2927,7 +2577,7 @@ MonoBehaviour:
     width: 1627
     height: 727
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &118
+--- !u!114 &104
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2943,15 +2593,15 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -2032128904892744680, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 708
-    width: 1155
-    height: 291
+    y: 948.6667
+    width: 1540
+    height: 411
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -2972,14 +2622,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Arts & Tech\Desktop\HMLEE_Masters Thesis\Thesis\Masters_Thesis
+  m_LastProjectPath: C:\Users\hyemi\Documents\Unity Projects\Github\Thesis\Masters_Thesis
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 5c480000
-    m_LastClickedID: 18524
-    m_ExpandedIDs: 000000005c48000000ca9a3b
+    m_SelectedIDs: 08480000
+    m_LastClickedID: 18440
+    m_ExpandedIDs: 000000000848000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3007,7 +2657,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005c480000
+    m_ExpandedIDs: 0000000008480000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3032,8 +2682,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 0e690100
-    m_LastClickedInstanceID: 92430
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000505f000000000000
     m_RenameOverlay:
@@ -3059,11 +2709,11 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 56}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 253
---- !u!114 &119
+--- !u!114 &105
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3079,15 +2729,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 8356117983803934776, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1642
-    y: 73
-    width: 277
-    height: 926
+    x: 2189.3335
+    y: 72.66667
+    width: 370
+    height: 1287
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -3101,7 +2751,7 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
---- !u!114 &120
+--- !u!114 &106
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3117,36 +2767,36 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -9000905672528348964, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1156
-    y: 73
-    width: 484
-    height: 610
+    x: 1541.3334
+    y: 72.66667
+    width: 646
+    height: 851
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0e690100
-      m_LastClickedID: 92430
-      m_ExpandedIDs: 7cafa2ff00b6a2ff1c0ea6ffc224a7ffda63a9ff2465a9ffa27da9ffbe13b7ff24becaff6afecaffb6fecaff9e1acbffea1acbffc28fcbff6227ccff6e27ccff7027ccff388fd3ff468fd3ffb67fd7ffeca5d7ff1216deff9a17deff8a1ddeff400ef4ff6a15f4ff1033f4ff7a3af4ff7046f4fffc79f4ff08d7fdff38fbffff4c5500008ac2000050c3000000c5000056c50000bac50000d0c5000024c600005ec600008ce400003ce6000090f000000af10000ccf10000d8fa000016fc000028400100
+      m_SelectedIDs: b6b10000
+      m_LastClickedID: 45494
+      m_ExpandedIDs: 3631f4ff8231f4ffb033f4fffac4ffff08c5ffff38fbffffa44f0000305000000c510000485100009e510000ce520000f6520000b6b100003cb2000078b30000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Controller Right
-        m_OriginalName: Controller Right
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 58508
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
@@ -3156,7 +2806,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 40860fe2fb1503b41bc595d8834a02ea
---- !u!114 &121
+--- !u!114 &107
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3172,15 +2822,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -131512000283675692, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -32000
-    y: -31970
-    width: 1155
-    height: 284
+    x: 0
+    y: 72.66667
+    width: 1540
+    height: 400
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: fd0687da9c4f6b145b28c5dcf5b2c175
@@ -3192,9 +2842,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.0914111, y: 0.8239858, z: -2.0163128}
+    m_Target: {x: 0.0000001527369, y: 0.000000074505806, z: 0}
     speed: 2
-    m_Value: {x: -1.0914111, y: 0.8239858, z: -2.0163128}
+    m_Value: {x: 0.0000001527369, y: 0.000000074505806, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -3240,13 +2890,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.085124984, y: 0.79141164, z: -0.11100489, w: -0.5954197}
+    m_Target: {x: 0.008084534, y: 0.9159835, z: 0.021777108, w: -0.40107438}
     speed: 2
-    m_Value: {x: -0.08510689, y: 0.7912434, z: -0.110981286, w: -0.5952931}
+    m_Value: {x: 0.008082812, y: 0.9157884, z: 0.02177247, w: -0.40098897}
   m_Size:
-    m_Target: 0.5308362
+    m_Target: 0.08660258
     speed: 2
-    m_Value: 0.5308362
+    m_Value: 0.08660258
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -3271,7 +2921,7 @@ MonoBehaviour:
   m_SceneVisActive: 0
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &122
+--- !u!114 &108
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3287,15 +2937,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 257045534191678443, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 708
-    width: 1155
-    height: 291
+    y: 948.6667
+    width: 1540
+    height: 411
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -3305,7 +2955,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1155, y: 270}
+  m_TargetSize: {x: 1540, y: 390}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -3320,10 +2970,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -577.5
-    m_HBaseRangeMax: 577.5
-    m_VBaseRangeMin: -135
-    m_VBaseRangeMax: 135
+    m_HBaseRangeMin: -513.3334
+    m_HBaseRangeMax: 513.3334
+    m_VBaseRangeMin: -130
+    m_VBaseRangeMax: 130
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -3341,29 +2991,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1155
-      height: 270
+      width: 1540
+      height: 390
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 577.5, y: 135}
+    m_Translation: {x: 770, y: 195}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -577.5
-      y: -135
-      width: 1155
-      height: 270
+      x: -770
+      y: -195
+      width: 1540
+      height: 390
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1155, y: 291}
+  m_LastWindowPixelSize: {x: 2310, y: 616.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &123
+--- !u!114 &109
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3379,13 +3029,13 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -3303252850963283158, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 378
-    width: 1155
-    height: 309
+    y: 494
+    width: 1540
+    height: 434
   m_ViewDataDictionary: {fileID: 0}

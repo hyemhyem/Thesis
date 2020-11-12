@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class LimboCanvas : MonoBehaviour
 {
 
@@ -20,8 +21,10 @@ public class LimboCanvas : MonoBehaviour
     //110.0398
 
     [Header("Options")]
+    
     public float fadeTime = 10f;
     public bool isLerpFade = false;
+    public bool isLerpFadeByTime = false;
     public float lerpStep = 0.001f;
 
 
@@ -34,7 +37,7 @@ public class LimboCanvas : MonoBehaviour
         
         foreach (var camera in cameras) {
             camera.fieldOfView = 110.0398f;
-            camera.clearFlags = CameraClearFlags.Depth;
+            camera.clearFlags = CameraClearFlags.Skybox;
         }
 
         roomtone.volume = 0f;
@@ -42,7 +45,12 @@ public class LimboCanvas : MonoBehaviour
         
        
         if(isLerpFade)
-            yield return StartCoroutine(CrossfadeLerp(lerpStep,roomtone));
+        {
+            if(isLerpFadeByTime)
+                yield return StartCoroutine(CrossfadeLerpByTime(fadeTime,roomtone));
+            else
+                yield return StartCoroutine(CrossfadeLerp(lerpStep,roomtone));
+        }
         else 
             yield return StartCoroutine(Crossfade(fadeTime,roomtone));
 
@@ -96,6 +104,26 @@ public class LimboCanvas : MonoBehaviour
         while (alpha > 0.005f)
         {
             alpha  = Mathf.Lerp(alpha, -0.005f, step);
+
+            realWorldRaw[0].color = realWorldRaw[1].color = new Color(1f, 1f, 1f, alpha);
+            virtualWorldRaw[0].color = virtualWorldRaw[1].color = new Color(1f, 1f, 1f, 1-alpha);
+
+            roomtone.volume = 1f - alpha;
+            yield return new WaitForFixedUpdate();
+        }
+        
+        roomtone.volume = 1f;
+    }
+
+    IEnumerator CrossfadeLerpByTime(float fadetime, AudioSource roomtone)
+    {
+        float startTime = Time.time;
+        float alpha = 1f;
+
+        Debug.Log("CROSSFADE (LERP) STEP by Time");
+        while (alpha > 0f)
+        {
+            alpha  = Mathf.Lerp(1f, 0f, (Time.time-startTime)/fadetime);
 
             realWorldRaw[0].color = realWorldRaw[1].color = new Color(1f, 1f, 1f, alpha);
             virtualWorldRaw[0].color = virtualWorldRaw[1].color = new Color(1f, 1f, 1f, 1-alpha);

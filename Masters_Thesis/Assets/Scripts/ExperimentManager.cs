@@ -30,7 +30,8 @@ public class ExperimentManager : MonoBehaviour
   
 
     [Header("Pointer Collider")]
-    public GameObject viveController;
+    public GameObject viveControllerModel;
+    public GameObject handModel;
     public Transform pointer;
 
     [Header("Pointer Sound")]
@@ -116,7 +117,13 @@ public class ExperimentManager : MonoBehaviour
         yield return new WaitUntil(() => Input.GetKeyDown(controlKey));
 
         if(isTransition)
-            StartCoroutine(limboCanvas.Limbo(roomtone));
+        {
+            yield return StartCoroutine(limboCanvas.Limbo(roomtone));
+            Debug.Log("림보 완료, 엔터 눌러서 진행");
+            yield return new WaitUntil(() => Input.GetKeyDown(controlKey));
+        }
+        
+        viveControllerModel.SetActive(false);
 
         for (int i = 0; i < target.Length; i++)
         {
@@ -126,6 +133,8 @@ public class ExperimentManager : MonoBehaviour
             Debug.Log(target[i].gameObject.name+": 팔을 제자리에 둔 후, 엔터 눌러서 확인");
 
             yield return new WaitUntil(() => Input.GetKeyDown(controlKey));
+            ShowHands(false);
+
             Debug.Log(target[i].gameObject.name+": 시작");
             Vector3 orginPos = pointer.position;
 
@@ -170,6 +179,8 @@ public class ExperimentManager : MonoBehaviour
             postureWriter.WriteLine(str.ToString());
             str.Clear();
 
+
+            ShowHands(true);
             isTriggerPressed = false;
             target[i].gameObject.SetActive(false);
         }
@@ -177,6 +188,11 @@ public class ExperimentManager : MonoBehaviour
         postureWriter.Close();
         writer.Close();
 
+    }
+
+    void ShowHands(bool isShowing){
+        handModel.SetActive(isShowing);
+        viveControllerModel.SetActive(isShowing);
     }
 
     bool Initialize(string path, string name)
