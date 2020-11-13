@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f44abaec9d0e8a1469e2cf13981d9de2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path: C:\Users\hyemi\Desktop\Thesis Data\Data
+  path: C:\Users\Arts & Tech\Desktop\Data
   NT_ROOM: []
   LB_ROOM: []
   NT_VSPACE: []
